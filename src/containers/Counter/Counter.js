@@ -5,7 +5,7 @@ import CounterControl from '../../components/CounterControl/CounterControl';
 import CounterOutput from '../../components/CounterOutput/CounterOutput';
 
 
-import { increment, decrement, subtract, add, storeResult, deleteResult } from '../../store/actions'
+import { increment, decrement, subtract, add, storeResult, deleteResult } from '../../store/actions/index'
 
 class Counter extends Component {
     state = {
